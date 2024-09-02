@@ -1,4 +1,172 @@
+
+   
+
+.New_chat_menu_parent{
+    /* border:  1px solid black; */
+    display:  flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.New_chat_menu_container{
+    /* border: 1px solid green; */
+    display:  flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.New_chat_container{
+/* border:  1px solid blue; */
+display:  grid;
+place-items: center;
+}
 .BiMessageAdd{
-    border:  1px solid red;
+    /* border:  1px solid red; */
     font-size: xx-large;
+}
+.SlOptionsVertical{
+    font-size: x-large;
+}
+.New_menu_container{
+    /* border:  1px solid red; */
+    display:  grid;
+place-items: center;
+}
+.Search_container{
+    /* border:  1px solid red; */
+    padding: 5px;
+}
+.Search_container_child{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(229, 233, 238);
+    border-radius: 10px;
+    padding: 7px;
+}
+.Search_Here_cont{
+    /* border:  1px solid black; */
+    width: 80%;
+}
+.IoIosSearch_span{
+    /* border:  1px solid blue */
+}
+.IoIosSearch{
+    /* border:  3px solid blue; */
+    font-size: 30px;
+}
+.input{
+    /* border:  1px solid green; */
+    width: 90%;
+    padding: 7px;
+    font-size: larger;
+    border: none;
+    background: transparent;
+
+}
+.input:focus {
+    outline: none;
+    border-color: #ccc;
+    border: none;
+}
+.Btn_container{
+    /* border:  1px solid rgb(50, 50, 50); */
+    /* padding: 20px; */
+/* background-color: white; */
+}
+.Btn_container_child{
+    /* border: 3px solid green; */
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgb(210, 13, 13); */
+ 
+}
+
+   .All_button{
+    border: none;
+    background: transparent;
+   }
+.All_cont{
+    border-radius: 50px;
+    /* border:  1px solid red; */
+    padding: 10px 15px;
+    font-size: larger;
+    background-color: rgb(229, 233, 238);
+}
+.Empty{
+    width: 40%;
+    border: none;
+    background: transparent;
+}
+.Group_container{
+      border-bottom: 1px solid rgb(130, 129, 129);
+      display:  flex;
+      width: 90%;
+      transition: all 0.5s ease-in-out;
+      padding: 10px;
+
+}
+.Group_container:hover{
+    cursor: pointer;
+    background-color:  rgb(229, 233, 238);
+}
+/* .Image_container {
+     /* border: 1px solid green; */
+     /* border-radius: 50px; */
+     /* padding: 10px; */
+     /* border-radius:30%; */
+     /* overflow: hidden;  */
+/* } */
+.Image_container .img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.Tag_container{
+     /* border: 1px solid green; */
+    
+   
+  /* margin-top: 20px; */
+  width: 100%;
+}
+.First_group_cont{
+    /* border: 1px solid green; */
+    display:  flex;
+    justify-content: space-between;
+}
+.Group_span{
+    /* border: 1px solid rgb(5, 126, 239);  */
+    font-size: large;
+    padding: 0px;
+}
+.Time_cont{
+    /* border: 1px solid rgb(138, 239, 5); */
+}
+.Second_group_cont{
+    /* border: 3px solid blue; */
+    display:  flex;
+    justify-content: start;
+    font-size: larger;
+}
+.Member_name_span{
+    /* border: 1px solid rgb(5, 126, 239); */
+}
+.Comma_span{
+    /* border: 1px solid rgb(5, 126, 239); */
+}
+.FaCamera_sapn{
+    /* border: 1px solid rgb(5, 126, 239); */
+}
+.FaCamera{
+    /* border: 1px solid rgb(249, 69, 9); */
+}
+.Member_Message_span{
+    /* border: 1px solid rgb(5, 126, 239); */
+}
+.BiVolumeMute_span{
+    /* border: 1px solid rgb(5, 126, 239); */
+}
+.BiVolumeMute{
+    /* border: 1px solid rgb(249, 69, 9); */
 }
